@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Matrix Multiplication</title>
+</head>
+<body>
+    <h1>Square Matrix Multiplication</h1>
+    <h3>Choose matrix size: </h3>
+    <form action="" onsubmit="return false;" onclick="onSizeInput()">
+        <!-- <label for="size">size</label> -->
+        <input type="number" name="size" id="size">
+        <button type="submit">Submit</button>
+    </form>
+
+    <div id="matrix">
+        <form action="" onsubmit="return false;" id="matrix-form-1">
+
+        </form>
+    </div>
+    <br>
+    <div id="matrix">
+        <form action="" onsubmit="return false;" id="matrix-form-2">
+
+        </form>
+    </div>
+    <br>
+    <div id="output">
+        <form action="" onsubmit="return false;" id="matrix-output">
+
+        </form>
+    </div>
+    <button type="submit" onclick="multiply()">Submit</button>
+
+    <script src="index.js"></script>
+</body>
+</html>
